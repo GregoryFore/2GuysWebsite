@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #ecf0f1;
+
+}
+body{
+  font-family: arial, helvetica, sans-serif;
+  max-width: 1080px;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  color: #333;
+}
+
+header {
+  background-image: url("images/skyline.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+  font-size: 150%;
+  text-align: center;
+  color: white;
+  height: auto;
+  /*width: 100%;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.headShot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+main {
+  padding: 5px 10px 10px 10px;
+}
+#musicPlayer {
+  text-align: center;
+  margin-bottom: 15px;
+}
+section {
+  width: 50%;
+  height: auto;
+  float: right;
+  text-align: center;
+}
+section blockquote {
+  padding: 10px 0;
+}
+article {
+  width: 50%;
+  height: auto;
+  float: right;
+  text-align: center;
+}
+article blockquote {
+  padding: 10px 0;
+}
+h2 {
+  padding: 10px 0;
+}
+.socialIcons {
+  padding: 10px 0;
+}
+
+table {
+  width: 55%;
+  text-align: left;
+  padding: 20px;
+  border-collapse: collapse;
+  margin: auto;
+}
+/*tr:first-child { border-radius: 10px 0 0 0};*/
+tbody tr:first-child td:first-child {
+    border-radius: 10px 0 0 0;
+}
+tbody tr:first-child td:last-child {
+    border-radius: 0 10px 0 0;
+}
+tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+
+td{
+  padding: 8px;
+  color: #ecf0f1;
+}
+tr:nth-child(even) {background-color: #81CFE0;}
+tr:nth-child(odd) {background-color: #4183D7;}
+
+footer {
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  color: #ecf0f1;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: #3498db;
+}
+
+footer h3{
+  padding: 5px;
+}
+
+footer p{
+  font-size: 80%;
+  padding: 5px;
+}
